@@ -6,7 +6,7 @@ import QRCode from 'qrcode.react';
 import './Login.css';
 
 const Login: React.FC = () => {
-  const [tokenId, setTokenId] = useState('nfc112233'); // Hardcoded token ID for now
+  const [tokenId, setTokenId] = useState('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiZW1haWwiOiJqb2huLmRvZUBlc3RpYW0uY29tIiwiaWF0IjoxNTE2MjM5MDIyLCJleHAiOjE3Mjc3NDA3OTksInJvbGUiOiJlbXBsb3llZSJ9.CzHm8hlLNQOnakPR-EMVwXIorMM0eUW15yxJCFICtXc'); // Hardcoded token ID for now
   const [error, setError] = useState('');
   const [showQRCode, setShowQRCode] = useState(false);
   const [redirectToDashboard, setRedirectToDashboard] = useState(false);
